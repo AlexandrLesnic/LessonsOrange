@@ -1,0 +1,58 @@
+body{
+background-color: #e2e1e1;
+}
+
+#top{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    z-index: 9999;
+    position: fixed;
+    margin-top:0px;
+}
+
+.toptabel{
+    color: aliceblue;
+}
+td {
+    width: auto;
+}
+.topname{
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    padding-top: 0.5%;
+}
+table {
+    margin: 40px auto auto auto;
+    border-collapse: collapse;
+    border-color:rgb(175, 175, 175);
+    background-color:white;    
+}
+.name {
+    color: black;
+    font-size: 14pt;
+    margin: auto 10px auto 10px;  
+}
+img {
+    width: 200px;
+}
+.movies {
+    color: black;
+    font-size: 14pt;
+    margin-left: 10px;  
+}
+button {
+    border: 1px solid #777;
+    background: #6e9e2d;
+    color: #fff;
+    font: bold 14px 'Trebuchet MS';
+    padding: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+footer{
+    text-align: center;
+}
