@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto auto auto;
+}
+.card-container{
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.card-inner-container{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 250px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: -75px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img img:hover {
+    transform: translate3d(0, -5px, 0);
+    transition: transform 0.35s;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_actor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 100%;
+    color: #484848;
+}
+
+.winner{
+    text-align: right;
+    padding-top: 10px;
+    color: #2e7d32;
+}
+
+.film-info{
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.film-info img{
+    width: 90px;
+    height: 131px;
+}
+
+.film-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    color:#484848;
+}
+
+.film-titles{
+    font-size: 10pt;
+    color: grey;
+}
+
+.film-stars {
+    margin: 5px auto;
+}
+
+.film-range {
+    font-size: 10pt;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.film-description {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.film-imdb img{
+    height: 20px;
+    width: auto;
+    float: right;
+    margin-top: 10px;
+}
+
+.story-title {
+    margin-top: 10px;
+    color: #484848;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.story-description p{
+    margin-top: 10px;
+    color: #484848;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+.award img{
+    margin-top: 10px;
+    width: 30px;
+}
+
+.award-description{
+    width: 100%;
+
+}
